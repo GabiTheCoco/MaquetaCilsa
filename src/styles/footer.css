@@ -1,0 +1,54 @@
+:root {
+    --color-fondo: #f1f1f2;
+    --color-botones: #1995AD;
+    --color-gris: #BCBABE;
+    --color-azulcito: #A1D6E2;
+    --color-botones-hover: #157083;
+    --color-header:rgb(199, 199, 202)2;
+    --color-wsp: #25D366;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+}
+
+.redes img:hover{
+    color: var(--color-botones-hover);
+    scale: 1.1;
+    transition: .3s ease-in;
+}
+
+.redes img:not(:hover){
+    transition: .3s ease-out;
+}
+
+a{
+    height: 60%;
+}
+
+.iconoInstagram,.iconoEmail,.iconoTiktok{
+    height: 100%;
+    width: auto;
+}
+
+.btnConsultas{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 12%;
+    background-color: var(--color-wsp);
+    color: white;
+    font-size: 1.1em;
+    border-radius: 1em;
+    text-decoration: none;
+}
+
+.iconoWsp{
+    color: white;
+    height: 75%;
+}

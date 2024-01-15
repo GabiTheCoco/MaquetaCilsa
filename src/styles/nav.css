@@ -1,0 +1,59 @@
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 100%;
+    padding: .5em 0;
+}
+
+.logoMarca{
+    height: 110%;
+    width: auto;
+}
+
+.busquedaContainer{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .5em;
+    width: 85%;
+    height: 65%;
+    border-radius: 1em;
+}
+
+.busquedaInput{
+    outline: none;
+    height: 100%;
+    width: 90%;
+    font-size: .9em;
+}
+
+.iconoLupa{
+    height: 50%;
+}
+
+.iconoLupa:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: .3s ease-in;
+}
+
+.iconoLupa:not(:hover){
+    transition: .3s ease-out;
+}
+
+.iconoCarrito{
+    height: 50%;
+    width: auto;
+}
+
+.iconoCarrito:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: .3s ease-in;
+}
+
+.iconoCarrito:not(:hover){
+    transition: .3s ease-out;
+}
