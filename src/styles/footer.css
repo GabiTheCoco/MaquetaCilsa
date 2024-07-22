@@ -16,23 +16,21 @@
     height: 100%;
 }
 
-.redes img:hover{
+.redes i:hover{
     color: var(--color-botones-hover);
     scale: 1.1;
     transition: .3s ease-in;
 }
 
-.redes img:not(:hover){
+.redes i:not(:hover){
     transition: .3s ease-out;
 }
 
-a{
-    height: 60%;
-}
 
-.iconoInstagram,.iconoEmail,.iconoTiktok{
-    height: 100%;
-    width: auto;
+.iconoInstagram, .iconoEmail, .iconoTiktok{
+    font-size: 2em;
+    cursor: pointer;
+    color: var(--color-botones);
 }
 
 .btnConsultas{
@@ -50,5 +48,5 @@ a{
 
 .iconoWsp{
     color: white;
-    height: 75%;
+    font-size: 1.2em;
 }

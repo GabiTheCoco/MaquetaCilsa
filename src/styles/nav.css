@@ -1,3 +1,12 @@
+:root {
+    --color-fondo: #f1f1f2;
+    --color-botones: #1995AD;
+    --color-gris: #BCBABE;
+    --color-azulcito: #A1D6E2;
+    --color-botones-hover: #157083;
+    --color-header:rgb(199, 199, 202)2;
+}
+
 .navBar{
     display: flex;
     align-items: center;
@@ -7,7 +16,7 @@
 }
 
 .logoMarca{
-    height: 110%;
+    height: 100%;
     width: auto;
 }
 
@@ -33,25 +42,17 @@
     height: 50%;
 }
 
-.iconoLupa:hover{
-    cursor: pointer;
-    scale: 1.1;
-    transition: .3s ease-in;
-}
-
-.iconoLupa:not(:hover){
-    transition: .3s ease-out;
-}
 
 .iconoCarrito{
-    height: 50%;
-    width: auto;
+    font-size: 1.7em;
+    color: var(--color-botones);
 }
 
 .iconoCarrito:hover{
     cursor: pointer;
     scale: 1.1;
     transition: .3s ease-in;
+    color: var(--color-botones-hover)
 }
 
 .iconoCarrito:not(:hover){

@@ -1,0 +1,189 @@
+:root {
+    --color-fondo: #f1f1f2;
+    --color-botones: #1995AD;
+    --color-gris: #BCBABE;
+    --color-azulcito: #A1D6E2;
+    --color-botones-hover: #157083;
+    --color-header:rgb(199, 199, 202)2;
+    --color-wsp: #25D366;
+}
+
+.pantallaProducto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.5em;
+}
+
+.bloqueIzquierda{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+.btnVolver{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 5em;
+    font-size: .9em;
+    color: var(--color-botones);
+    background-color: var(--color-fondo);
+    cursor: pointer;
+}
+
+.iconoFlecha{
+    height: 100%;
+}
+
+.bloqueImagenes{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.imgDemo, .imgGrande{
+    cursor: pointer;
+}
+
+.img1, .img2{
+    width: 100%;
+    height: 45%;
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
+    background-color: white;
+    border-radius: .5em;
+}
+
+.img-active{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+
+.divImgGrande{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.divImgGrande img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+.detallesProducto{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 1.5em;
+    background-color: white;
+    border-radius: .5em;
+}
+
+.nombreProducto, .descripcionProducto{
+    font-size: 1em;
+}
+
+.nombreProducto{
+    justify-self: baseline;
+    font-weight: bold;
+}
+
+.descripcionProducto{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    align-items: center;
+}
+
+.infoProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30%;
+}
+
+.divStockCantidad{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30%;
+}
+
+.stockProducto{
+    font-size: 1em;
+    order: 2;
+    width: 55%;
+    text-align: center;
+}
+
+.cantidadProducto{
+    /* border: 1px solid rgba(0,0,0,.1); */
+    padding: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.iconoMenos,.txtCantidadProducto, .iconoMas{
+    height: 100%;
+}
+
+.iconoMenos, .iconoMas{
+    cursor: pointer;
+}
+
+.divPrecioCarrito{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+
+.precioProducto{
+    font-size: 2em;
+    width: 35%;
+}
+
+.botonCarrito{
+    width: 55%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2em;
+    color: white;
+    background-color: var(--color-botones);
+    border-radius: .3em;
+}
+
+.botonCarrito .iconoCarrito{
+    font-size: 1em;
+    color: white;
+}
